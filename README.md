@@ -2,6 +2,11 @@
 
 ADC example with a **nRF5x** chip from **Nordic Semiconductor**
 
+
+## Main Functionality
+
+This firmware samples the voltage on the targetted Analog Input Pin. Using "NRF_SAADC_INPUT_VDD" allows to sample Vdd (the chip own power source)
+
 ## Getting Started
 
 Hardware: 
@@ -15,10 +20,6 @@ Pinout:
 
 ## Installing
 - for a quick demo, put this sketch in nRF5_SDK_15.0.0_a53641a\examples\peripheral\\[Your_Project]
-
-## Main Functionality
-
-This firmware samples the voltage on the targetted Analog Input Pin. Using "NRF_SAADC_INPUT_VDD" allows to sample Vdd (the chip own power source)
 
 ## Built With
 
